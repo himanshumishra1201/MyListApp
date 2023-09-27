@@ -1,8 +1,27 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# MyListApp
 
-# Getting Started
+MyListApp is a mobile application developed using React Native that allows users to create, view, edit, and delete lists of items. Users can enter details for each item, including the item name, description, and quantity. The app also calculates the total based on the quantity of each item.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
+
+- **Add Items**: Users can add items to the list by entering the item name, description, and quantity. The app calculates the total cost for each item.
+
+- **View Items**: Users can view a list of all the items they've added, including their details and calculated totals.
+
+- **Edit Items**: Users can edit the name and description of existing items.
+
+- **Delete Items**: Users can remove items from the list.
+
+- **Data Persistence**: The app uses Redux for state management, and the list of items persists even when the app is closed and reopened, thanks to AsyncStorage.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your development machine.
+- React Native development environment set up.
+
+### Installation
 
 ## Step 1: Start the Metro Server
 
