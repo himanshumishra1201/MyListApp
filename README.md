@@ -23,6 +23,9 @@ MyListApp is a mobile application developed using React Native that allows users
 
 ### Installation
 
+1. Clone this repository:
+https://github.com/himanshumishra1201/MyListApp.git
+
 ## Step 1: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
